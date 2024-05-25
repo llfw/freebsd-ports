@@ -10,7 +10,7 @@ WWW=		https://github.com/dweymouth/supersonic
 LICENSE=	GPLv3
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		go:modules xorg gl
+USES=		go:modules xorg gl pkgconfig
 USE_GITHUB=	yes
 GH_ACCOUNT=	dweymouth
 GH_PROJECT=	${PORTNAME}
