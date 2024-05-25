@@ -18,7 +18,7 @@ GH_TAGNAME=	v0.10.1
 .include "Makefile.deps"
 
 LIB_DEPENDS=	libmpv.so:multimedia/mpv
-USE_XORG=	x11 xau xcb xdmcp
+USE_XORG=	x11 xau xcb xdmcp xcursor
 USE_GL=		gl
 
 PLIST_FILES=	bin/supersonic
