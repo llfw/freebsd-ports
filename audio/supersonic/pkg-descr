@@ -1,0 +1,13 @@
+Supersonic is a lightweight, cross-platform desktop client for Subconic and
+Jellyfin music servers.  Supersonic supports any music server with a Subsonic
+(or OpenSubsonic) API, or Jellyfin. A partial list of supported servers is as
+follows:
+
+- Navidrome
+- Jellyfin
+- Gonic
+- LMS
+- Airsonic-Advanced
+- Ampache
+- Funkwhale
+- Supysonic
