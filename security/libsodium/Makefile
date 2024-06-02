@@ -4,6 +4,7 @@ PORTNAME=	libsodium
 #################################################
 PORTVERSION=	1.0.19
 CATEGORIES=	security
+MASTER_SITES=	https://download.libsodium.org/libsodium/releases/
 
 MAINTAINER=	vsevolod@FreeBSD.org
 COMMENT=	Library to build higher-level cryptographic tools
@@ -12,16 +13,14 @@ WWW=		https://github.com/jedisct1/libsodium/
 LICENSE=	ISCL
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		libtool pathfix pkgconfig gmake autoreconf
+USES=		libtool pathfix pkgconfig
 USE_LDCONFIG=	yes
-
-USE_GITHUB=     yes
-GH_ACCOUNT=     jedisct1
-GH_TAGNAME=     2e662fb
 
 GNU_CONFIGURE=	yes
 INSTALL_TARGET=	install-strip
 TEST_TARGET=	check
+
+WRKSRC=		${WRKDIR}/${PORTNAME}-stable
 
 OPTIONS_DEFINE=	DOCS
 
