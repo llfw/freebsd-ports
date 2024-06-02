@@ -256,7 +256,6 @@
     SUBDIR += http_ping
     SUBDIR += httping
     SUBDIR += httpry
-    SUBDIR += iaxmodem
     SUBDIR += icmpinfo
     SUBDIR += icpld
     SUBDIR += ifdepd
@@ -1623,6 +1622,8 @@
     SUBDIR += widentd
     SUBDIR += wifi-firmware-ath10k-kmod
     SUBDIR += wifi-firmware-ath11k-kmod
+    SUBDIR += wifi-firmware-ath12k-kmod
+    SUBDIR += wifi-firmware-iwlwifi-kmod
     SUBDIR += wifi-firmware-kmod
     SUBDIR += wifi-firmware-mt76-kmod
     SUBDIR += wifi-firmware-rtw88-kmod

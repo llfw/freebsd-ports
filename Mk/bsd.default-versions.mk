@@ -101,7 +101,7 @@ LUAJIT_DEFAULT?=	luajit-devel
 .  endif
 # Possible values: 5.10, 5.20, 6.8
 MONO_DEFAULT?=		5.20
-# Possible values: 8.0, 8.1, 10.5m, 10.6m, 10.11m
+# Possible values: 8.0, 8.1, 8.4, 10.5m, 10.6m, 10.11m
 MYSQL_DEFAULT?=		8.0
 # Possible values: ninja, samurai
 NINJA_DEFAULT?=		ninja
@@ -135,7 +135,7 @@ PYCRYPTOGRAPHY_DEFAULT?=	rust
 PYCRYPTOGRAPHY_DEFAULT?=	legacy
 .  endif
 # Possible values: 3.8, 3.9, 3.10, 3.11
-PYTHON_DEFAULT?=	3.9
+PYTHON_DEFAULT?=	3.11
 # Possible values: 2.7
 PYTHON2_DEFAULT?=	2.7
 # Possible values: 3.1, 3.2, 3.3
