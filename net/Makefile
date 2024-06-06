@@ -1153,7 +1153,6 @@
     SUBDIR += py-smart-open
     SUBDIR += py-smbpasswd
     SUBDIR += py-smbprotocol
-    SUBDIR += py-soap2py
     SUBDIR += py-socketio-client
     SUBDIR += py-socksio
     SUBDIR += py-softlayer
@@ -1221,6 +1220,7 @@
     SUBDIR += reaver
     SUBDIR += recvnet
     SUBDIR += redir
+    SUBDIR += redpanda-connect
     SUBDIR += relayd
     SUBDIR += remarkable-devd
     SUBDIR += remmina
