@@ -1,40 +1,45 @@
 GH_TUPLE=	\
 		20after4:configdir:v0.1.1:20after4_configdir/vendor/github.com/20after4/configdir \
+		BurntSushi:toml:v1.3.2:burntsushi_toml/vendor/github.com/BurntSushi/toml \
 		alessio:shellescape:v1.4.1:alessio_shellescape/vendor/github.com/alessio/shellescape \
+		cenkalti:dominantcolor:v1.0.2:cenkalti_dominantcolor/vendor/github.com/cenkalti/dominantcolor \
 		danieljoos:wincred:v1.1.0:danieljoos_wincred/vendor/github.com/danieljoos/wincred \
 		davecgh:go-spew:v1.1.1:davecgh_go_spew/vendor/github.com/davecgh/go-spew \
 		deluan:sanitize:6e18967d9fc1:deluan_sanitize/vendor/github.com/deluan/sanitize \
-		dominikh:go-js-dom:f030747120f2:dominikh_go_js_dom/vendor/honnef.co/go/js/dom \
-		dweymouth:fyne:9e56d7882130:dweymouth_fyne_v2/vendor/fyne.io/fyne/v2 \
-		dweymouth:go-jellyfin:fb02c0b3878e:dweymouth_go_jellyfin/vendor/github.com/dweymouth/go-jellyfin \
+		disintegration:imaging:v1.6.2:disintegration_imaging/vendor/github.com/disintegration/imaging \
+		dweymouth:fyne-lyrics:15eee7ce5e64:dweymouth_fyne_lyrics/vendor/github.com/dweymouth/fyne-lyrics \
+		dweymouth:fyne:256525c6a602:dweymouth_fyne_v2/vendor/fyne.io/fyne/v2 \
+		dweymouth:go-jellyfin:5ceca61cb645:dweymouth_go_jellyfin/vendor/github.com/dweymouth/go-jellyfin \
 		dweymouth:go-mpv:7f1858e503ee:dweymouth_go_mpv/vendor/github.com/dweymouth/go-mpv \
-		dweymouth:go-subsonic:798603e9f3a3:dweymouth_go_subsonic/vendor/github.com/dweymouth/go-subsonic \
-		fredbi:uri:v1.0.0:fredbi_uri/vendor/github.com/fredbi/uri \
-		fsnotify:fsnotify:v1.6.0:fsnotify_fsnotify/vendor/github.com/fsnotify/fsnotify \
+		dweymouth:go-subsonic:605046e7c78a:dweymouth_go_subsonic/vendor/github.com/dweymouth/go-subsonic \
+		fredbi:uri:v1.1.0:fredbi_uri/vendor/github.com/fredbi/uri \
+		fsnotify:fsnotify:v1.7.0:fsnotify_fsnotify/vendor/github.com/fsnotify/fsnotify \
 		fyne-io:gl-js:d2da28d9ccfe:fyne_io_gl_js/vendor/github.com/fyne-io/gl-js \
-		fyne-io:glfw-js:ee7290d23504:fyne_io_glfw_js/vendor/github.com/fyne-io/glfw-js \
+		fyne-io:glfw-js:6e1efdc71b7a:fyne_io_glfw_js/vendor/github.com/fyne-io/glfw-js \
 		fyne-io:image:4956b0afb3d2:fyne_io_image/vendor/github.com/fyne-io/image \
-		fyne-io:systray:104f5ef7839e:fyne_io_systray/vendor/fyne.io/systray \
+		fyne-io:systray:d160fd363db9:fyne_io_systray/vendor/fyne.io/systray \
 		go-gl:gl:726fda9656d6:go_gl_gl/vendor/github.com/go-gl/gl \
-		go-gl:glfw:93cebf72946b:go_gl_glfw_glfw/vendor/github.com/go-gl/glfw \
-		go-text:render:35bccb6164b8:go_text_render/vendor/github.com/go-text/render \
+		go-gl:glfw:037f3cc74f2a:go_gl_glfw_glfw/vendor/github.com/go-gl/glfw \
+		go-text:render:v0.1.0:go_text_render/vendor/github.com/go-text/render \
 		go-text:typesetting:v0.1.0:go_text_typesetting/vendor/github.com/go-text/typesetting \
 		go-yaml:yaml:v3.0.1:go_yaml_yaml/vendor/gopkg.in/yaml.v3 \
 		godbus:dbus:v5.1.0:godbus_dbus_v5/vendor/github.com/godbus/dbus/v5 \
 		golang:image:v0.15.0:golang_image/vendor/golang.org/x/image \
-		golang:mobile:3c911d8e3eda:golang_mobile/vendor/golang.org/x/mobile \
-		golang:net:v0.17.0:golang_net/vendor/golang.org/x/net \
-		golang:sys:v0.13.0:golang_sys/vendor/golang.org/x/sys \
+		golang:mobile:76ac6878050a:golang_mobile/vendor/golang.org/x/mobile \
+		golang:net:v0.24.0:golang_net/vendor/golang.org/x/net \
+		golang:sys:v0.19.0:golang_sys/vendor/golang.org/x/sys \
 		golang:text:v0.14.0:golang_text/vendor/golang.org/x/text \
 		google:uuid:v1.3.0:google_uuid/vendor/github.com/google/uuid \
 		gopherjs:gopherjs:v1.17.2:gopherjs_gopherjs/vendor/github.com/gopherjs/gopherjs \
+		jeandeaual:go-locale:672d8d016d9a:jeandeaual_go_locale/vendor/github.com/jeandeaual/go-locale \
 		jsummers:gobmp:e2ba15ffa76e:jsummers_gobmp/vendor/github.com/jsummers/gobmp \
+		nicksnyder:go-i18n:v2.4.0:nicksnyder_go_i18n_v2/vendor/github.com/nicksnyder/go-i18n \
 		pelletier:go-toml:v2.0.8:pelletier_go_toml_v2/vendor/github.com/pelletier/go-toml/v2 \
 		pmezard:go-difflib:v1.0.0:pmezard_go_difflib/vendor/github.com/pmezard/go-difflib \
 		quarckster:go-mpris-server:v1.0.3:quarckster_go_mpris_server/vendor/github.com/quarckster/go-mpris-server \
+		rymdport:portal:v0.2.2:rymdport_portal/vendor/github.com/rymdport/portal \
 		srwiley:oksvg:be6e8873101c:srwiley_oksvg/vendor/github.com/srwiley/oksvg \
 		srwiley:rasterx:2ab79fcdd4ef:srwiley_rasterx/vendor/github.com/srwiley/rasterx \
 		stretchr:testify:v1.8.4:stretchr_testify/vendor/github.com/stretchr/testify \
-		tevino:abool:v1.2.0:tevino_abool/vendor/github.com/tevino/abool \
 		yuin:goldmark:v1.5.5:yuin_goldmark/vendor/github.com/yuin/goldmark \
 		zalando:go-keyring:v0.2.1:zalando_go_keyring/vendor/github.com/zalando/go-keyring
